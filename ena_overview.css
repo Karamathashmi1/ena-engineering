@@ -6,7 +6,7 @@
 }
 
 .header-and-hero-section > header {
-  padding-bottom: 152px;
+  padding-bottom: 174px; /* 152px */
 }
 
 .header-and-hero-section {
@@ -74,7 +74,25 @@
 }
 
 .header-and-hero-section > header hr {
-  width: 1237px;/* 1152px */
-  border: -0.1px solid #ffffff;/* 0.5px */
+  width: 1237px; /* 1152px */
+  border: -0.1px solid #ffffff; /* 0.5px */
   margin: auto;
+}
+
+/* ===============================================================================================
+                                       Start Hero Section
+================================================================================================== */
+
+.hero-section-container {
+  display: flex;
+  justify-self: center;
+  padding-bottom: 248px;
+}
+
+.hero-section-container h1 {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 48px;
+  color: #ffffff;
 }
