@@ -263,3 +263,56 @@
   display: flex;
   gap: 8px;
 }
+
+/* ===============================================================================================
+                                       Start Section Five
+================================================================================================== */
+
+.section-five-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 112px;
+  background-color: #f5f5f5;
+  padding: 88px 0 88px 0;
+}
+
+.section-five-container-main-div-one {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.section-five-container-main-div-one div {
+  display: flex;
+  gap: 8px;
+}
+
+.section-fiv-container-main-div-two {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-fiv-container-main-div-two h3 {
+  color: #141515;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  padding-bottom: 32px;
+}
+
+.section-fiv-container-main-div-two p span {
+  color: #141515;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.section-fiv-container-main-div-two p {
+  color: #141515;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  width: 511px; /* 466px */
+  padding-bottom: 23px;
+}
