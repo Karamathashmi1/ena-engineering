@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.header-and-hero-section {
+  background-image: url(ena_overview-img/header-and-hero-sec-bg-img.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 144px 16px 144px;
+}
+
+.header-container nav ul {
+  display: flex;
+  gap: 56px;
+}
+
+.header-container nav ul li {
+  list-style: none;
+}
+
+.header-container nav ul li a {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 12%;
+  text-decoration: none;
+}
+
+.header-container nav ul li a:hover {
+  color: #e03740;
+}
+
+.header-container img {
+  width: 58px;
+  height: 65px;
+}
+
+.header-container > a {
+  text-decoration: none;
+}
+
+.header-container > a button {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 100%;
+  background: transparent;
+  border: 0.5px solid #ffffff;
+  padding: 15px 24px;
+}
+
+.header-container > a > button > i {
+  width: 20px;
+  padding-left: 12px;
+}
+
+.header-container > a button:hover {
+  border: 0.5px solid #e03740;
+  color: #e03740;
+}
