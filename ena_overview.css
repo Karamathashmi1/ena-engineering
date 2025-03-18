@@ -185,3 +185,28 @@
   height: 40px;
 }
 
+/* ===============================================================================================
+                                       Start Section Three
+================================================================================================== */
+
+.section-three {
+  padding: 97px 0 97px 0;
+  background-color: #f5f5f5;
+}
+
+.section-three-container {
+  background-image: url(ena_overview-img/sec-three-bg-img.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-three-container h2 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 112px;
+  line-height: 100%;
+  letter-spacing: 66px;
+  width: 934px;
+  margin: auto;
+  padding: 147px 0 147px 0;/* top 128px */
+}
