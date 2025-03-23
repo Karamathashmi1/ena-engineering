@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -10,65 +12,62 @@
 }
 
 .header-and-hero-section {
-  background-image: url(ena_overview-img/header-and-hero-sec-bg-img.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url(./ena_overview-img/header-and-hero-sec-bg-img.svg) no-repeat
+    center/cover;
 }
 
-.header-container {
+.header-uper-div {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 16px 144px 16px 144px;
+  padding: 16px 144px;
 }
 
-.header-container nav ul {
+.header-uper-div nav ul {
   display: flex;
   gap: 56px;
 }
 
-.header-container nav ul li {
+.header-uper-div nav ul li {
   list-style: none;
 }
 
-.header-container nav ul li a {
+.header-uper-div nav ul li a {
   color: #ffffff;
   font-weight: 600;
   font-size: 12px;
-  line-height: 100%;
-  letter-spacing: 12%;
   text-decoration: none;
 }
 
-.header-container nav ul li a:hover {
+.header-uper-div nav ul li a:hover {
   color: #e03740;
 }
 
-.header-container img {
+.header-uper-div img {
   width: 58px;
   height: 65px;
+  cursor: pointer;
 }
 
-.header-container > a {
+.header-uper-div > a {
   text-decoration: none;
 }
 
-.header-container > a button {
+.header-uper-div > a button {
   color: #ffffff;
   font-weight: 600;
   font-size: 12px;
-  line-height: 100%;
   background: transparent;
   border: 0.5px solid #ffffff;
   padding: 15px 24px;
 }
 
-.header-container > a > button > i {
+.header-uper-div > a > button > i {
   width: 20px;
   padding-left: 12px;
 }
 
-.header-container > a button:hover {
+.header-uper-div > a button:hover {
   border: 0.5px solid #e03740;
   color: #e03740;
 }
@@ -86,15 +85,14 @@
 .hero-section-container {
   display: flex;
   justify-self: center;
-  padding-bottom: 248px;
 }
 
 .hero-section-container h1 {
-  font-family: sans-serif;
   font-weight: 600;
   font-size: 48px;
   line-height: 48px;
   color: #ffffff;
+  padding-bottom: 248px;
 }
 
 /* ===============================================================================================
@@ -107,6 +105,7 @@
   align-items: center;
   flex-direction: column;
   gap: 112px;
+  color: #141515;
 }
 
 .section-one-container-main-div-one {
@@ -125,11 +124,9 @@
 }
 
 .section-one-container-main-div-one > p {
-  flood-color: #141515;
   font-weight: 300;
   font-size: 20px;
   line-height: 24px;
-  letter-spacing: -4%;
   width: 744px; /* 682px */
 }
 
@@ -147,14 +144,12 @@
 }
 
 .section-one-container-main-div-two ul h3 {
-  color: #141515;
   font-weight: 700;
   font-size: 32px;
   line-height: 40px;
 }
 
 .section-one-container-main-div-two ul li {
-  color: #141515;
   font-weight: 300;
   font-size: 20px;
   line-height: 24px;
@@ -173,8 +168,8 @@
 .section-two-container {
   display: flex;
   justify-content: center;
-  padding-top: 112px;
   background-color: #f5f5f5;
+  padding-top: 112px;
 }
 
 .section-two-container h2 {
@@ -190,25 +185,23 @@
 ================================================================================================== */
 
 .section-three {
-  padding: 97px 0 97px 0;
+  padding: 97px 0;
   background-color: #f5f5f5;
 }
 
 .section-three-container {
-  background-image: url(ena_overview-img/sec-three-bg-img.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url(./ena_overview-img/sec-three-bg-img.svg) no-repeat
+    center/cover;
 }
 
 .section-three-container h2 {
   color: #ffffff;
   font-weight: 700;
   font-size: 112px;
-  line-height: 100%;
   letter-spacing: 66px;
   width: 934px;
   margin: auto;
-  padding: 147px 0 147px 0; /* top 128px */
+  padding: 147px 0; /* top 128px */
 }
 
 /* ===============================================================================================
@@ -221,7 +214,8 @@
   align-items: center;
   gap: 112px;
   background-color: #f5f5f5;
-  padding: 88px 0 88px 0;
+  padding: 88px 0;
+  color: #141515;
 }
 
 .section-four-container-main-div-one {
@@ -231,22 +225,16 @@
 }
 
 .section-four-container-main-div-one > h3 {
-  color: #141515;
   font-weight: 700;
   font-size: 24px;
   line-height: 24px;
 }
 
-.section-four-container-main-div-one > p span {
-  color: #141515;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
+.section-four-container-main-div-one > p strong {
   padding-right: 4px;
 }
 
 .section-four-container-main-div-one > p {
-  color: #141515;
   font-weight: 300;
   font-size: 20px;
   line-height: 24px;
@@ -274,7 +262,7 @@
   align-items: center;
   gap: 112px;
   background-color: #f5f5f5;
-  padding: 88px 0 88px 0;
+  padding: 88px 0;
 }
 
 .section-five-container-main-div-one {
@@ -301,11 +289,7 @@
   padding-bottom: 32px;
 }
 
-.section-fiv-container-main-div-two p span {
-  color: #141515;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
+.section-fiv-container-main-div-two p strong {
   padding-right: 4px;
 }
 
@@ -327,7 +311,7 @@
   justify-content: center;
   gap: 112px;
   background-color: #f5f5f5;
-  padding: 88px 0 88px 0;
+  padding: 88px 0;
 }
 
 .section-six-container-main-div-one {
@@ -343,11 +327,7 @@
   padding-bottom: 32px;
 }
 
-.section-six-container-main-div-one p span {
-  color: #141515;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
+.section-six-container-main-div-one p strong {
   padding-right: 4px;
 }
 
@@ -374,6 +354,7 @@
   gap: 56px;
   background-color: #f5f5f5;
   padding: 88px 0 112px 0;
+  color: #141515;
 }
 
 .section-seven-container-main-div-one {
@@ -384,7 +365,6 @@
 }
 
 .section-seven-container-main-div-one h2 {
-  color: #141515;
   font-weight: 700;
   font-size: 32px;
   line-height: 32px;
@@ -400,7 +380,6 @@
 }
 
 .section-seven-container-main-div-one ul li {
-  color: #141515;
   font-weight: 300;
   font-size: 20px;
   line-height: 24px;
@@ -414,7 +393,6 @@
 }
 
 .section-seven-container-main-div-two h2 {
-  color: #141515;
   font-weight: 700;
   font-size: 32px;
   line-height: 32px;
@@ -431,7 +409,6 @@
 }
 
 .section-seven-container-main-div-two ul li {
-  color: #141515;
   font-weight: 300;
   font-size: 20px;
   line-height: 24px;
