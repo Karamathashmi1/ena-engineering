@@ -743,103 +743,7 @@ footer {
   font-size: 16px;
 }
 
-@media only screen and (min-width: 1201px) {
-  .header-container nav ul li a {
-    font-size: 12px;
-  }
-
-  .header-container button {
-    font-size: 12px;
-    padding: 15px 24px;
-  }
-
-  .header-container button i {
-    padding-left: 12px;
-  }
-
-  .header-and-main hr {
-    width: 1152px;
-    margin: auto;
-  }
-
-  .hero-container h1 {
-    font-size: 80px;
-    line-height: 80px;
-    width: 751px;
-    padding: 201px 0 262px 0;
-  }
-
-  .engineering-section-container h3 {
-    font-size: 32px;
-    line-height: 32px;
-    padding-bottom: 64px;
-  }
-
-  .engineering-section-container ul {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    width: 1152px;
-  }
-
-  .engineering-section-container ul li a {
-    font-size: 18px;
-  }
-
-  .engineering-section-container ul li a span {
-    font-size: 14px;
-  }
-
-  .markets-section-container {
-    gap: 48px;
-    padding-block: 112px;
-  }
-
-  .markets-section-container h4 {
-    font-size: 40px;
-    line-height: 40px;
-  }
-
-  .markets-section-row-one {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  }
-
-  .footer-container {
-    padding-block: 74px;
-  }
-
-  .footer-col-one {
-    gap: 32px;
-  }
-
-  .footer-col-one div h5 {
-    font-size: 12px;
-  }
-
-  .footer-col-one div ul {
-    padding-top: 16px;
-  }
-
-  .footer-col-one div ul li a {
-    font-size: 16px;
-    line-height: 20px;
-  }
-
-  .footer-col-two div h5 {
-    font-size: 12px;
-  }
-
-  .footer-col-two div div {
-    padding-top: 16px;
-    font-size: 16px;
-  }
-
-  .footer-col-two div p {
-    padding-top: 16px;
-  }
-
-  .footer-col-two div p a {
-    font-size: 16px;
-  }
-}
+/* @media only screen and (min-width: 1201px) {} */
 
 @media only screen and (min-width: 993px) and (max-width: 1201px) {
   .header-and-main hr {
@@ -859,26 +763,7 @@ footer {
   }
 
   .engineering-section-container ul {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 940px;
-  }
-
-  .engineering-section-container ul li a {
-    font-size: 18px;
-  }
-
-  .engineering-section-container ul li a span {
-    font-size: 14px;
-  }
-
-  .markets-section-container {
-    gap: 48px;
-    padding-block: 112px;
-  }
-
-  .markets-section-container h4 {
-    font-size: 40px;
-    line-height: 40px;
   }
 
   .markets-section-row-one {
@@ -887,24 +772,6 @@ footer {
 
   .footer-container {
     padding-block: 64px;
-  }
-
-  .footer-col-one {
-    gap: 32px;
-  }
-
-  .footer-col-one div h5 {
-    font-size: 12px;
-  }
-
-  .footer-col-one div ul {
-    gap: 12px;
-    padding-top: 16px;
-  }
-
-  .footer-col-one div ul li a {
-    font-size: 16px;
-    line-height: 20px;
   }
 
   .footer-col-two {
