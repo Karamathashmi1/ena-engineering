@@ -1225,3 +1225,772 @@ footer {
     width: auto;
   }
 }
+
+/* ===============================================================================================
+                                      START CONTACT CSS
+================================================================================================== */
+
+.contact-header-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-block: 16px;
+  background-color: #141515;
+  font-family: "Roboto", sans-serif;
+}
+
+.contact-header-container nav ul {
+  display: flex;
+  gap: 56px;
+}
+
+.contact-header-container nav ul li {
+  list-style: none;
+}
+
+.contact-header-container nav ul li a {
+  font-weight: 600;
+  font-size: 12px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.contact-header-container button {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 15px 24px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+}
+
+.contact-header-container button i {
+  padding-left: 12px;
+}
+
+.contact-header-container button:hover {
+  color: #e03740;
+  border: 1px solid #e03740;
+}
+
+.contact-hero-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 112px;
+  font-family: "Roboto", sans-serif;
+  gap: 72px;
+}
+
+.contact-hero-container-right-div {
+  padding-top: 50px;
+}
+
+.contact-hero-container-right-div h1 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #141515;
+  height: 56px;
+}
+
+.contact-hero-container-right-div p {
+  color: #141515;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  width: 470px;
+  padding: 16px 0 40px 0;
+}
+
+.contact-hero-container-right-div a {
+  color: #e03740;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.contact-hero-container-right-div a > i {
+  padding-right: 8px;
+}
+
+.contact-hero-container-right-div form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 40px;
+}
+
+.contact-hero-container-right-div form > input {
+  color: #929292;
+  font-weight: 600;
+  font-size: 12px;
+  padding-block: 20px;
+  border: none;
+  border-bottom: 1px solid #929292;
+}
+
+.contact-hero-container-right-div form div {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-hero-container-right-div form div label {
+  color: #929292;
+  font-weight: 600;
+  font-size: 9px;
+  padding-top: 13px;
+}
+
+#email {
+  color: #141515;
+  font-weight: 600;
+  font-size: 12px;
+  border: none;
+  padding: 8px 0 8px 0;
+  border-bottom: 1px solid #929292;
+}
+
+.contact-hero-container-right-div form button {
+  color: #e03740;
+  font-weight: 600;
+  font-size: 12px;
+  border: 1px solid #e03740;
+  padding: 15px 24px;
+  width: 132px;
+  margin-top: 16px;
+  background-color: transparent;
+}
+
+.contact-footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-block: 74px;
+  font-family: "Roboto", sans-serif;
+  background-color: #141515;
+}
+
+.contact-footer-col-one {
+  display: flex;
+  gap: 32px;
+}
+
+.contact-footer-col-one div h5 {
+  font-weight: 600;
+  font-size: 12px;
+  color: #e03740;
+}
+
+.contact-footer-col-one div ul {
+  display: flex;
+  gap: 12px;
+  padding-top: 16px;
+}
+
+.contact-footer-col-one div ul li {
+  list-style: none;
+}
+
+.contact-footer-col-one div ul li a {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.contact-footer-col-two {
+  display: flex;
+  gap: 56px;
+}
+
+.contact-footer-col-two div h5 {
+  color: #e03740;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.contact-footer-col-two div div {
+  color: #ffffff;
+  font-weight: 300;
+  padding-top: 16px;
+  font-size: 16px;
+}
+
+.contact-footer-col-two div p {
+  padding-top: 16px;
+}
+
+.contact-footer-col-two div p a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+/* @media only screen and (min-width: 1201px) */
+
+@media only screen and (min-width: 993px) and (max-width: 1201px) {
+  .contact-hero-container {
+    padding-top: 100px;
+    gap: 60px;
+  }
+
+  .contact-hero-container img {
+    width: 400px;
+  }
+
+  .contact-hero-container-right-div {
+    padding-top: 32px;
+  }
+
+  .contact-hero-container-right-div h1 {
+    font-size: 30px;
+    height: 46px;
+  }
+
+  .contact-hero-container-right-div p {
+    font-size: 16px;
+    line-height: 20px;
+    width: 370px;
+    padding: 12px 0 14px 0;
+  }
+
+  .contact-hero-container-right-div a {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .contact-hero-container-right-div form {
+    gap: 12px;
+    padding-top: 10px;
+  }
+
+  .contact-hero-container-right-div form > input {
+    font-size: 10px;
+    padding-block: 16px;
+  }
+
+  .contact-hero-container-right-div form div label {
+    font-size: 8px;
+    padding-top: 11px;
+  }
+
+  #email {
+    font-size: 10px;
+    padding: 7px 0 7px 0;
+  }
+
+  .contact-hero-container-right-div form button {
+    font-size: 10px;
+    padding: 13px 22px;
+    width: 128px;
+    margin-top: 4px;
+  }
+
+  .contact-footer-container {
+    padding-block: 54px;
+  }
+
+  .contact-footer-col-one {
+    gap: 30px;
+  }
+
+  .contact-footer-col-one img {
+    width: 56px;
+  }
+
+  .contact-footer-col-one div h5 {
+    font-size: 10px;
+  }
+
+  .contact-footer-col-one div ul {
+    gap: 10px;
+    padding-top: 14px;
+  }
+
+  .contact-footer-col-one div ul li a {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .contact-footer-col-two {
+    gap: 54px;
+  }
+
+  .contact-footer-col-two div h5 {
+    font-size: 10px;
+  }
+
+  .contact-footer-col-two div div {
+    padding-top: 14px;
+    font-size: 14px;
+  }
+
+  .contact-footer-col-two div p {
+    padding-top: 14px;
+  }
+
+  .contact-footer-col-two div p a {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 993px) {
+  .contact-header-container {
+    padding-block: 14px;
+  }
+
+  .contact-header-container nav ul {
+    gap: 50px;
+  }
+
+  .contact-header-container nav ul li a {
+    font-size: 10px;
+  }
+
+  .contact-header-container button {
+    font-size: 10px;
+    padding: 13px 22px;
+  }
+
+  .contact-header-container button i {
+    padding-left: 10px;
+  }
+
+  .contact-hero-container {
+    padding-top: 60px;
+    gap: 37px;
+  }
+
+  .contact-hero-container img {
+    width: 340px;
+  }
+
+  .contact-hero-container-right-div {
+    padding-top: 30px;
+  }
+
+  .contact-hero-container-right-div h1 {
+    font-size: 30px;
+    height: 36px;
+  }
+
+  .contact-hero-container-right-div p {
+    font-size: 14px;
+    line-height: 17px;
+    width: 340px;
+    padding: 12px 0 16px 0;
+  }
+
+  .contact-hero-container-right-div a {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .contact-hero-container-right-div form {
+    gap: 10px;
+    padding-top: 8px;
+  }
+
+  .contact-hero-container-right-div form > input {
+    font-size: 8px;
+    padding-block: 14px;
+  }
+
+  .contact-hero-container-right-div form div label {
+    font-size: 6px;
+    padding-top: 9px;
+  }
+
+  #email {
+    font-size: 8px;
+    padding: 6px 0 6px 0;
+  }
+
+  .contact-hero-container-right-div form button {
+    font-size: 8px;
+    padding: 13px 22px;
+    width: 110px;
+    margin-top: 4px;
+  }
+
+  .contact-footer-container {
+    padding-block: 34px;
+  }
+
+  .contact-footer-col-one {
+    gap: 30px;
+  }
+
+  .contact-footer-col-one img {
+    width: 54px;
+  }
+
+  .contact-footer-col-one div h5 {
+    font-size: 10px;
+  }
+
+  .contact-footer-col-one div ul {
+    gap: 10px;
+    padding-top: 14px;
+  }
+
+  .contact-footer-col-one div ul li a {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .contact-footer-col-two {
+    gap: 54px;
+  }
+
+  .contact-footer-col-two div h5 {
+    font-size: 10px;
+  }
+
+  .contact-footer-col-two div div {
+    padding-top: 14px;
+    font-size: 14px;
+  }
+
+  .contact-footer-col-two div p {
+    padding-top: 14px;
+  }
+
+  .contact-footer-col-two div p a {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 769px) {
+  .contact-header-container {
+    padding-block: 12px;
+  }
+
+  .contact-header-container nav ul {
+    gap: 40px;
+  }
+
+  .contact-header-container nav ul li a {
+    font-size: 8px;
+  }
+
+  .contact-header-container button {
+    font-size: 8px;
+    padding: 11px 20px;
+  }
+
+  .contact-header-container button i {
+    padding-left: 8px;
+  }
+
+  .contact-hero-container {
+    padding-top: 40px;
+    gap: 20px;
+  }
+
+  .contact-hero-container img {
+    width: 260px;
+  }
+
+  .contact-hero-container-right-div {
+    padding-top: 15px;
+  }
+
+  .contact-hero-container-right-div h1 {
+    font-size: 26px;
+    height: 32px;
+  }
+
+  .contact-hero-container-right-div p {
+    font-size: 12px;
+    line-height: 15px;
+    width: 248px;
+    padding: 8px 0 6px 0;
+  }
+
+  .contact-hero-container-right-div a {
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  .contact-hero-container-right-div form {
+    gap: 6px;
+    padding-top: 5px;
+  }
+
+  .contact-hero-container-right-div form > input {
+    font-size: 6px;
+    padding-block: 9px;
+  }
+
+  .contact-hero-container-right-div form div label {
+    font-size: 5px;
+    padding-top: 7px;
+  }
+
+  #email {
+    font-size: 6px;
+      padding: 5px 0 5px 0;
+  }
+
+  .contact-hero-container-right-div form button {
+    font-size: 6px;
+    padding: 8px 20px;
+    width: 76px;
+    margin-top: 0;
+  }
+
+  .contact-footer-container {
+    padding-block: 34px;
+  }
+
+  .contact-footer-col-one {
+    gap: 30px;
+  }
+
+  .contact-footer-col-one img {
+    width: 54px;
+  }
+
+  .contact-footer-col-one div h5 {
+    font-size: 10px;
+  }
+
+  .contact-footer-col-one div ul {
+    gap: 10px;
+    padding-top: 14px;
+  }
+
+  .contact-footer-col-one div ul li a {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .contact-footer-col-two {
+    gap: 54px;
+  }
+
+  .contact-footer-col-two div h5 {
+    font-size: 10px;
+  }
+
+  .contact-footer-col-two div div {
+    padding-top: 14px;
+    font-size: 14px;
+  }
+
+  .contact-footer-col-two div p {
+    padding-top: 14px;
+  }
+
+  .contact-footer-col-two div p a {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 576px) {
+  .contact-header-container {
+    padding-block: 16px;
+    flex-direction: row-reverse;
+  }
+
+  .contact-header-container nav ul {
+    gap: 32px;
+  }
+
+  .contact-header-container button {
+    display: none;
+  }
+
+  .contact-hero-container {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 40px;
+    gap: 32px;
+  }
+
+  .contact-hero-container img {
+    width: 380px;
+  }
+
+  .contact-hero-container-right-div {
+    padding-top: 0;
+  }
+
+  .contact-hero-container-right-div h1 {
+    font-size: 32px;
+    height: 32px;
+  }
+
+  .contact-hero-container-right-div p {
+    font-size: 16px;
+    line-height: 20px;
+    width: 380px;
+    padding: 16px 0 24px 0;
+  }
+
+  .contact-hero-container-right-div form {
+    padding-top: 24px;
+  }
+
+  .contact-hero-container-right-div form button {
+    width: auto;
+  }
+
+  .contact-footer-container {
+    padding-block: 34px;
+    align-items: center;
+  }
+
+  .contact-footer-col-one {
+    gap: 30px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .contact-footer-col-one img {
+    width: 54px;
+  }
+
+  .contact-footer-col-one div h5 {
+    font-size: 10px;
+  }
+
+  .contact-footer-col-one div ul {
+    gap: 10px;
+    padding-top: 14px;
+  }
+
+  .contact-footer-col-one div ul li a {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .contact-footer-col-two {
+    gap: 54px;
+  }
+
+  .contact-footer-col-two div h5 {
+    font-size: 10px;
+  }
+
+  .contact-footer-col-two div div {
+    padding-top: 14px;
+    font-size: 14px;
+  }
+
+  .contact-footer-col-two div p {
+    padding-top: 14px;
+  }
+
+  .contact-footer-col-two div p a {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .contact-header-container {
+    padding-block: 16px;
+    flex-direction: row-reverse;
+  }
+
+  .contact-header-container nav ul {
+    gap: 32px;
+  }
+
+  .contact-header-container button {
+    display: none;
+  }
+
+  .contact-hero-container {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 40px;
+    gap: 32px;
+  }
+
+  .contact-hero-container img {
+    width: 282px;
+  }
+
+  .contact-hero-container-right-div {
+    padding-top: 0;
+  }
+
+  .contact-hero-container-right-div h1 {
+    font-size: 32px;
+    height: 32px;
+  }
+
+  .contact-hero-container-right-div p {
+    font-size: 12px;
+    line-height: 20px;
+    width: 282px;
+    padding: 16px 0 24px 0;
+  }
+
+  .contact-hero-container-right-div form {
+    padding-top: 24px;
+  }
+
+  .contact-hero-container-right-div form button {
+    width: auto;
+  }
+
+  .contact-footer-container {
+    padding-block: 34px;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .contact-footer-col-one {
+    gap: 30px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .contact-footer-col-one img {
+    width: 54px;
+  }
+
+  .contact-footer-col-one div h5 {
+    font-size: 10px;
+  }
+
+  .contact-footer-col-one div ul {
+    gap: 10px;
+    padding-top: 14px;
+  }
+
+  .contact-footer-col-one div ul li a {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .contact-footer-col-two {
+    gap: 24px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-footer-col-two div h5 {
+    font-size: 10px;
+  }
+
+  .contact-footer-col-two div div {
+    padding-top: 14px;
+    font-size: 14px;
+  }
+
+  .contact-footer-col-two div p {
+    padding-top: 14px;
+  }
+
+  .contact-footer-col-two div p a {
+    font-size: 14px;
+  }
+}
