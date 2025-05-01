@@ -58,7 +58,7 @@
   font-weight: 600;
   font-size: 12px;
   background: transparent;
-  border: 0.5px solid #ffffff;
+  border: 1px solid #ffffff;
   padding: 15px 24px;
 }
 
@@ -68,19 +68,15 @@
 }
 
 .header-uper-div > a button:hover {
-  border: 0.5px solid #e03740;
+  border: 1px solid #e03740;
   color: #e03740;
 }
 
 .header-and-hero-section > header hr {
   width: 1237px; /* 1152px */
-  border: -0.1px solid #ffffff; /* 0.5px */
+  border: 1px solid #ffffff; /* 0.5px */
   margin: auto;
 }
-
-/* ===============================================================================================
-                                       Start Hero Section
-================================================================================================== */
 
 .hero-section-container {
   display: flex;
@@ -94,10 +90,6 @@
   color: #ffffff;
   padding-bottom: 248px;
 }
-
-/* ===============================================================================================
-                                       Start Section One
-================================================================================================== */
 
 .section-one-container {
   display: flex;
@@ -161,10 +153,6 @@
   height: 745px;
 }
 
-/* ===============================================================================================
-                                       Start Section Two
-================================================================================================== */
-
 .section-two-container {
   display: flex;
   justify-content: center;
@@ -179,10 +167,6 @@
   line-height: 40px;
   height: 40px;
 }
-
-/* ===============================================================================================
-                                       Start Section Three
-================================================================================================== */
 
 .section-three {
   padding: 97px 0;
@@ -203,10 +187,6 @@
   margin: auto;
   padding: 147px 0; /* top 128px */
 }
-
-/* ===============================================================================================
-                                       Start Section Four
-================================================================================================== */
 
 .section-four-container {
   display: flex;
@@ -251,10 +231,6 @@
   display: flex;
   gap: 8px;
 }
-
-/* ===============================================================================================
-                                       Start Section Five
-================================================================================================== */
 
 .section-five-container {
   display: flex;
@@ -302,10 +278,6 @@
   padding-bottom: 23px;
 }
 
-/* ===============================================================================================
-                                       Start Section Six
-================================================================================================== */
-
 .section-six-container {
   display: flex;
   justify-content: center;
@@ -343,10 +315,6 @@
 .section-six-container-main-div-two {
   padding-top: 64px;
 }
-
-/* ===============================================================================================
-                                       Start Section Seven
-================================================================================================== */
 
 .section-seven-container {
   display: flex;
@@ -414,10 +382,6 @@
   line-height: 24px;
 }
 
-/* ===============================================================================================
-                                       Start Section Eight
-================================================================================================== */
-
 .section-eight-container {
   display: flex;
   justify-content: center;
@@ -426,10 +390,6 @@
   background-color: #f5f5f5;
   padding-bottom: 200px;
 }
-
-/* ===============================================================================================
-                                       Start Footer
-================================================================================================== */
 
 footer {
   background-color: #141515;
@@ -543,7 +503,6 @@ footer {
   justify-content: space-around;
   align-items: center;
   padding-block: 16px;
-  font-family: sans-serif;
 }
 
 .header-container nav ul {
@@ -558,7 +517,6 @@ footer {
 
 .header-container nav ul li a {
   text-decoration: none;
-  /* font-family: Roboto; */
   font-weight: 600;
   font-size: 12px;
   color: #ffffff;
@@ -569,7 +527,7 @@ footer {
   font-size: 12px;
   color: #ffffff;
   padding: 15px 24px;
-  border: 0.5px solid #ffffff;
+  border: 1px solid #ffffff;
   background-color: transparent;
 }
 
@@ -579,7 +537,7 @@ footer {
 
 .header-container button:hover {
   color: #e03740;
-  border: 0.5px solid #e03740;
+  border: 1px solid #e03740;
 }
 
 .header-and-main hr {
@@ -591,7 +549,6 @@ footer {
 .hero-container {
   display: flex;
   justify-content: center;
-  font-family: sans-serif;
 }
 
 .hero-container h1 {
@@ -608,7 +565,6 @@ footer {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  font-family: sans-serif;
   gap: 16px;
   padding-block: 112px;
   background-color: #f5f5f5;
@@ -657,7 +613,6 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-family: sans-serif;
   gap: 48px;
   padding-block: 112px;
 }
@@ -681,7 +636,6 @@ footer {
   justify-content: space-around;
   align-items: flex-start;
   padding-block: 74px;
-  font-family: sans-serif;
   background-color: #141515;
 }
 
@@ -1236,7 +1190,6 @@ footer {
   align-items: center;
   padding-block: 16px;
   background-color: #141515;
-  font-family: "Roboto", sans-serif;
 }
 
 .contact-header-container nav ul {
@@ -1277,7 +1230,6 @@ footer {
   display: flex;
   justify-content: center;
   padding-top: 112px;
-  font-family: "Roboto", sans-serif;
   gap: 72px;
 }
 
@@ -1365,7 +1317,6 @@ footer {
   justify-content: space-around;
   align-items: flex-start;
   padding-block: 74px;
-  font-family: "Roboto", sans-serif;
   background-color: #141515;
 }
 
