@@ -2891,7 +2891,7 @@ footer {
   }
 
   .markets-section-row-one img {
-    width: 343px;
+    width: 425px;
   }
 
   .footer-container {
@@ -2932,7 +2932,7 @@ footer {
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 420px) and (max-width: 480px) {
   .header-container {
     padding-block: 10px;
     flex-direction: row-reverse;
@@ -3003,7 +3003,231 @@ footer {
   }
 
   .markets-section-row-one img {
-    width: 297px;
+    width: 380px;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    padding-block: 32px;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .footer-col-one {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-col-one div h5 {
+    font-size: 11px;
+  }
+
+  .footer-col-one div ul {
+    display: flex;
+    gap: 12px;
+    padding-top: 14px;
+  }
+
+  .footer-col-one div ul li a {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .footer-col-two {
+    display: flex;
+    gap: 24px;
+    text-align: center;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 370px) and (max-width: 420px) {
+  .header-container {
+    padding-block: 10px;
+    flex-direction: row-reverse;
+  }
+
+  .header-container nav ul {
+    gap: 32px;
+  }
+
+  .header-container nav ul li a {
+    font-size: 12px;
+  }
+
+  .header-container button {
+    display: none;
+  }
+
+  .header-and-main hr {
+    width: 295px;
+  }
+
+  .hero-container h1 {
+    font-size: 40px;
+    line-height: 44px;
+    width: 334px;
+    padding: 154px 0 235px 0;
+  }
+
+  .engineering-section-container {
+    padding-block: 40px;
+  }
+
+  .engineering-section-container h3 {
+    font-size: 32px;
+    line-height: 32px;
+    padding-bottom: 32px;
+    width: 282px;
+    margin: auto;
+  }
+
+  .engineering-section-container ul {
+    grid-template-columns: 1fr;
+    width: auto;
+    gap: 16px;
+  }
+
+  .engineering-section-container ul li a {
+    font-size: 18px;
+  }
+
+  .engineering-section-container ul li a span {
+    font-size: 14px;
+  }
+
+  .markets-section-container {
+    display: flex;
+    gap: 48px;
+    padding-block: 40px;
+  }
+
+  .markets-section-container h4 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .markets-section-row-one {
+    grid-template-columns: 1fr;
+  }
+
+  .markets-section-row-one img {
+    width: 340px;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    padding-block: 32px;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .footer-col-one {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-col-one div h5 {
+    font-size: 11px;
+  }
+
+  .footer-col-one div ul {
+    display: flex;
+    gap: 12px;
+    padding-top: 14px;
+  }
+
+  .footer-col-one div ul li a {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .footer-col-two {
+    display: flex;
+    gap: 24px;
+    text-align: center;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 370px) {
+  .header-container {
+    padding-block: 10px;
+    flex-direction: row-reverse;
+  }
+
+  .header-container nav ul {
+    gap: 32px;
+  }
+
+  .header-container nav ul li a {
+    font-size: 12px;
+  }
+
+  .header-container button {
+    display: none;
+  }
+
+  .header-and-main hr {
+    width: 295px;
+  }
+
+  .hero-container h1 {
+    font-size: 40px;
+    line-height: 44px;
+    width: 334px;
+    padding: 154px 0 235px 0;
+  }
+
+  .engineering-section-container {
+    padding-block: 40px;
+  }
+
+  .engineering-section-container h3 {
+    font-size: 32px;
+    line-height: 32px;
+    padding-bottom: 32px;
+    width: 282px;
+    margin: auto;
+  }
+
+  .engineering-section-container ul {
+    grid-template-columns: 1fr;
+    width: auto;
+    gap: 16px;
+  }
+
+  .engineering-section-container ul li a {
+    font-size: 18px;
+  }
+
+  .engineering-section-container ul li a span {
+    font-size: 14px;
+  }
+
+  .markets-section-container {
+    display: flex;
+    gap: 48px;
+    padding-block: 40px;
+  }
+
+  .markets-section-container h4 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .markets-section-row-one {
+    grid-template-columns: 1fr;
+  }
+
+  .markets-section-row-one img {
+    width: 310px;
   }
 
   .footer-container {
@@ -3045,8 +3269,114 @@ footer {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 350px) {
-  .markets-section-row-one img {
+  .header-container {
+    padding-block: 10px;
+    flex-direction: row-reverse;
+  }
+
+  .header-container nav ul {
+    gap: 32px;
+  }
+
+  .header-container nav ul li a {
+    font-size: 12px;
+  }
+
+  .header-container button {
+    display: none;
+  }
+
+  .header-and-main hr {
+    width: 295px;
+  }
+
+  .hero-container h1 {
+    font-size: 40px;
+    line-height: 44px;
+    width: 334px;
+    padding: 154px 0 235px 0;
+  }
+
+  .engineering-section-container {
+    padding-block: 40px;
+  }
+
+  .engineering-section-container h3 {
+    font-size: 32px;
+    line-height: 32px;
+    padding-bottom: 32px;
+    width: 282px;
+    margin: auto;
+  }
+
+  .engineering-section-container ul {
+    grid-template-columns: 1fr;
     width: auto;
+    gap: 16px;
+  }
+
+  .engineering-section-container ul li a {
+    font-size: 18px;
+  }
+
+  .engineering-section-container ul li a span {
+    font-size: 14px;
+  }
+
+  .markets-section-container {
+    display: flex;
+    gap: 48px;
+    padding-block: 40px;
+  }
+
+  .markets-section-container h4 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .markets-section-row-one {
+    grid-template-columns: 1fr;
+  }
+
+  .markets-section-row-one img {
+    width: 280px;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    padding-block: 32px;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .footer-col-one {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-col-one div h5 {
+    font-size: 11px;
+  }
+
+  .footer-col-one div ul {
+    display: flex;
+    gap: 12px;
+    padding-top: 14px;
+  }
+
+  .footer-col-one div ul li a {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .footer-col-two {
+    display: flex;
+    gap: 24px;
+    text-align: center;
+    flex-direction: column;
   }
 }
 
