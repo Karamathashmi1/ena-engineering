@@ -1393,12 +1393,12 @@ footer {
     font-size: 8px;
   }
 
-  .header-uper-div img {
+  .header-uper-div a img {
     width: 54px;
     height: 60px;
   }
 
-  .header-uper-div > a {
+  .header-uper-div a button {
     display: none;
   }
 
@@ -1715,12 +1715,12 @@ footer {
     font-size: 12px;
   }
 
-  .header-uper-div img {
+  .header-uper-div a img {
     width: 58px;
     height: 65px;
   }
 
-  .header-uper-div > a {
+  .header-uper-div a button {
     display: none;
   }
 
@@ -2046,12 +2046,12 @@ footer {
     font-size: 12px;
   }
 
-  .header-uper-div img {
+  .header-uper-div a img {
     width: 58px;
     height: 65px;
   }
 
-  .header-uper-div > a {
+  .header-uper-div a button {
     display: none;
   }
 
